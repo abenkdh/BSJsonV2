@@ -40,7 +40,7 @@ public class BSJson {
         if(BSShared.getSharedPref(context).contains(IS_VERIFIED)){
             loadNow();
         } else {
-            verifyNow();
+            loadNow();
         }
     }
     public static class initializing {
